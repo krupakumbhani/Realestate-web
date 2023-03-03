@@ -1,0 +1,673 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  --main-color: #000000;
+  --primry-color: #364d79;
+  --button-background: #ffffff;
+  --primary-button-text: #50bb7a;
+  --common-btn-border: #28736a;
+}
+
+h1,
+h2 {
+  font-family: "Causten Round";
+  color: var(-primry-color);
+}
+
+h4,
+h3 {
+  font-family: "Causten Round";
+  color: var(--main-color);
+}
+
+h3 {
+  font-weight: 750;
+  font-size: 2.2rem;
+  line-height: 6rem;
+  text-transform: capitalize;
+}
+
+p,
+a,
+li,
+button {
+  font-family: "Causten Round";
+  color: var(--primry-color);
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  line-height: 3.6rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+/* ---------------- Navbar style ------------------- */
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand img {
+  width: 18rem;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
+  color: var(--main-color);
+  margin-right: 5rem;
+}
+
+.navbar-collapse form button {
+  color: var(--primary-button-text);
+  border: 2px solid var(--primary-button-text);
+  border-radius: 0.5rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  padding: 0.8rem 2rem;
+}
+
+.navbar-collapse form button:hover {
+  background-color: var(--primary-button-text);
+}
+
+/* ---------------------Hero Style ---------------- */
+.hero-section {
+  padding: 7rem 0rem;
+}
+
+.line {
+  border: 4px solid var(--primary-button-text);
+  width: 10rem;
+  margin-bottom: 1.8rem;
+}
+
+.hero-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero-left-side-content h1 {
+  font-style: normal;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 8rem;
+  line-height: 9rem;
+  color: var(--primry-color);
+}
+
+.hero-left-side-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+
+.hero-right-side img {
+  width: 100%;
+}
+
+.hero-button {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.hero-button button {
+  background-color: #b5e8c9;
+  padding: 1rem 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  border-radius: 0.25rem 0rem 0rem 0.25rem;
+
+}
+
+.hero-button button:hover {
+  background-color: #9dd4b3;
+}
+
+.hero-button button:focus {
+  box-shadow: 0 0 0 0rem;
+}
+
+.hero-button span {
+  background-color: #eebe1e;
+  padding: 1rem 2rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 0px;
+  border-radius: 0rem 0.25rem 0.25rem 0rem;
+}
+
+.hero-button span:hover {
+  background-color: #daae1c;
+}
+
+/*----------------------- 2nd section style-----------------------  */
+.common-section {
+  padding: 7rem 0rem;
+}
+
+/* .common-section .row {
+  justify-content: center;
+  align-items: center;
+} */
+
+.left-side img {
+  width: 100%;
+}
+
+.right-side {
+  margin-top: 6rem;
+  padding: 0rem 2rem;
+}
+
+.right-side h2 {
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 7rem;
+  color: var(--primry-color);
+}
+
+.right-side h6 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #28736a;
+  margin-top: 1rem;
+}
+
+.right-side p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  margin-top: 1.5rem;
+  color: var(--main-color);
+}
+
+.common-button {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 1.8rem;
+  border: 3px solid #367b74;
+  border-radius: 1rem;
+  color: var(--common-btn-border);
+  background-color: transparent;
+  padding: 1rem 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.common-button:hover {
+  color: var(--button-background);
+  background-color: var(--common-btn-border);
+}
+
+.sec2sideimg{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
+/*-------------------------- section3 styles ------------------------------ */
+#sec-blue-bg{
+  background-color: #2e545014;
+
+}
+.section-third {
+  position: relative;
+}
+
+.sec-three-subtitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--common-btn-border);
+}
+
+.section-third .container h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 5.5rem;
+  line-height: 7rem;
+  color: var(--primry-color);
+  margin-bottom: 10rem;
+}
+
+.sec-third-sub h6 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--primry-color);
+  margin-top: 1rem;
+}
+.sec-third-sub p:first-of-type{
+  font-size: 1.8rem;
+  color: var(--common-btn-border);
+  text-transform: capitalize;
+}
+.sec-third-sub p:last-of-type{
+  color: var(--primry-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+.sec3sideimg{
+  position: absolute;
+  bottom: -81px;
+  right: 0;
+}
+
+/*-------------------------- section four style ---------------------------------- */
+.sec4-h6{
+  font-weight: 600;
+    font-size: 2rem;
+    line-height: 3rem;
+    color: var(--main-color);
+    margin-top: 1rem;
+}
+
+.sec4-box{
+background: #FFFFFF;
+border: 1px solid #CDF0D7;
+box-shadow: 0px 4px 4px rgba(234, 234, 234, 0.25);
+border-radius: 0.5rem;
+margin: 1.5rem 0rem;
+padding: 2rem;
+align-items: center;
+}
+.sec4-img img{
+  width: 100%;
+
+}
+.sec4-box .col-10 h6{
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #28736a;
+  margin-top: 1rem;
+}
+.sec4-box .col-10 p{
+font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 2rem;
+margin-block-end:0rem;
+}
+.sec4sideimg{
+  position: absolute;
+  bottom: -51px;
+  left: 0;
+}
+
+
+
+/* ------------------------------------------------Responsive style start------------------------------------------ */
+
+/* --------------------------------------Large screens and Desktops – 1025px — 1200px.----------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+
+  /* navbar  */
+  .navbar-brand img {
+    width: 16rem;
+    padding: 0.5rem;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    margin-right: 2rem;
+  }
+
+  .navbar-collapse form button {
+    font-size: 1.6rem;
+    padding: 0.5rem 1.8rem;
+  }
+
+  /* hero  */
+  .line {
+    width: 9rem;
+  }
+
+  .hero-left-side-content h1 {
+    font-size: 7rem;
+    line-height: 8rem;
+
+  }
+
+  .hero-left-side-content p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+
+  .hero-button {
+    margin-top: 2rem;
+  }
+
+  .hero-button button {
+    padding: 1rem 1.5rem;
+    font-size: 2.2rem;
+    line-height: 1rem;
+  }
+
+  .hero-button span {
+    padding: 1rem 1.5rem;
+    font-size: 2.2rem;
+    line-height: 1rem;
+
+
+  }
+
+  /* section2 */
+  .right-side {
+    margin-top: 0rem;
+  }
+
+  .right-side h2 {
+    font-size: 4.8rem;
+    line-height: 5rem;
+  }
+
+  .right-side h6 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .right-side p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .common-button {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+.sec2sideimg img{
+  width: 140px;
+}
+
+  /* section3  */
+  /* section4  */
+  .sec4-img img {
+    width: 90%;
+}
+
+}
+
+/*----------------------------------------------- Laptops and small screen – 769px — 1024px.-------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+
+  /* hero  */
+  .hero-left-side-content h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  .hero-button button {
+    font-size: 1.8rem;
+  }
+
+  /* section2 */
+  .sec2sideimg img{
+    width: 120px;
+  }
+  /* section3  */
+  .section-third .container h2 {
+    font-size: 4.8rem;
+    line-height: 5rem;
+    margin-bottom: 6rem;
+}
+.sec-three-subtitle {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+.sec4-box .col-10 h6 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: #28736a;
+  margin-top: 0rem;
+}
+.sec4-box .col-10 p {
+  font-size: 1.4rem;
+}
+}
+
+@media only screen and (max-width: 991px) {
+
+  /* navbar  */
+  .navbar-brand img {
+    width: 15rem;
+    padding: 0.5rem;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    margin: 0.5rem 0rem 0.5rem 1rem;
+  }
+
+  .navbar-collapse form button {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    padding: auto;
+  }
+
+  .navbar {
+    position: relative;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    left: 0;
+    top: 77px;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffdd6b;
+  }
+
+}
+
+/*----------------------------------------------- iPads and Tablets – 481px — 768px.-------------------------------------------- */
+@media only screen and (max-width: 768px) {
+
+  /* navbar  */
+  /* hero  */
+  .line {
+    width: 6rem;
+  }
+
+  .hero-left-side-content h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .hero-left-side-content p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    line-height: 2.4rem;
+  }
+
+  .hero-button button {
+    font-size: 1.8rem;
+    padding: 1rem 1rem;
+  }
+
+  .hero-button span {
+    font-size: 1.8rem;
+    padding: 1rem 1rem;
+  }
+
+  /* section2 */
+ 
+  .right-side h2 {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+
+  .right-side h6 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+  }
+
+  .right-side p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .common-button {
+    font-size: 1.6rem;
+    line-height: 1.4rem;
+    padding: 0.8rem 1.4rem;
+  }
+  .sec2sideimg img{
+    width: 100px;
+  }
+ 
+
+  /* section3  */
+  .section-third .container h2 {
+    font-size: 3.6rem;
+    line-height: 4rem;
+    margin-bottom: 4rem;
+}
+.sec-third-sub img{
+  width: 60px;
+}
+.sec-third-sub h6 {
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+.sec-third-sub p:first-of-type {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.sec-third-sub p:last-of-type {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+/* section 4 */
+.sec4-h6{
+  font-size: 1.8rem;
+  line-height: 2rem;
+}
+}
+
+/*----------------------------------------------- For Mobile Devices – 320px — 480px.-------------------------------------------- */
+@media only screen and (max-width: 575px) {
+
+  /* navbar  */
+  /* hero  */
+  .hero-section {
+    padding: 1rem 0rem;
+  }
+
+  .hero-right-side {
+    order: 1;
+  }
+
+  .hero-left-side {
+    order: 2;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left-side-content h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .hero-left-side-content p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  /* section2 */
+  .common-section {
+    padding: 5rem 0rem;
+}
+  .right-side {
+    margin-top: 3rem;
+    text-align: center;
+  }
+
+  .right-side h2 {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+  }
+
+  .right-side h6 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .sec2sideimg img{
+    width: 80px;
+  }
+      
+
+  /* section3  */
+  .sec-third-sub{
+    text-align: center;
+  }
+  .section-third .container h2 {
+    font-size: 2.8rem;
+    line-height: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.sec4-box .col-10 h6 {
+  font-size: 1.6rem;
+}
+}
