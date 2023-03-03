@@ -86,7 +86,7 @@ button {
 }
 
 .navbar-nav .nav-item .nav-link {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: 2rem;
@@ -161,7 +161,6 @@ button {
   font-size: 2.5rem;
   line-height: 3rem;
   border-radius: 0.25rem 0rem 0rem 0.25rem;
-
 }
 
 .hero-button button:hover {
@@ -191,11 +190,9 @@ button {
 .common-section {
   padding: 7rem 0rem;
 }
-
-/* .common-section .row {
-  justify-content: center;
-  align-items: center;
-} */
+.common-margin {
+  margin: 7rem 0rem;
+}
 
 .left-side img {
   width: 100%;
@@ -252,14 +249,9 @@ button {
   right: 0;
 }
 
-
-
-
-
 /*-------------------------- section3 styles ------------------------------ */
 #sec-blue-bg {
   background-color: #2e545014;
-
 }
 
 .section-third {
@@ -321,8 +313,8 @@ button {
 }
 
 .sec4-box {
-  background: #FFFFFF;
-  border: 1px solid #CDF0D7;
+  background: #ffffff;
+  border: 1px solid #cdf0d7;
   box-shadow: 0px 4px 4px rgba(234, 234, 234, 0.25);
   border-radius: 0.5rem;
   margin: 1.5rem 0rem;
@@ -332,7 +324,6 @@ button {
 
 .sec4-img img {
   width: 100%;
-
 }
 
 .sec4-box .col-10 h6 {
@@ -355,11 +346,12 @@ button {
   position: absolute;
   bottom: -51px;
   left: 0;
+  z-index: 1;
 }
 
 /*--------------------------  section fifth style ---------------------------------- */
 .sec5-bg {
-  background-color: #1D3E69;
+  background-color: #1d3e69;
 }
 
 .sec5-rightside h2 {
@@ -391,7 +383,21 @@ button {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 2.3rem;
 }
-
+.sec5sideimg {
+  position: absolute;
+  bottom: 8rem;
+  right: 0;
+}
+.sec8sideimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sec9sideimg {
+  position: absolute;
+  bottom: 0;
+  right: -8rem;
+}
 /* ------------------------------Sixth Section style----------------------------  */
 
 .brand-group {
@@ -413,7 +419,7 @@ button {
 }
 
 .sec7-bg {
-  background-color: #E8F9F4;
+  background-color: #e8f9f4;
 }
 
 .card {
@@ -511,15 +517,48 @@ button {
 }
 
 /* ----------------------------Footer Styles --------------------------- */
-.footer-border{
+.footer-border {
   width: 100%;
   border: 4px solid orange;
+}
+#footer li{
+  color: var(--button-background);
+  font-family: 'Causten Round';
+font-style: normal;
+font-weight: 600;
+font-size: 1.8rem;
+line-height: 3rem;
+}
+#footer p{
+  color: var(--primary-button-text);
+  font-family: 'Causten Round';
+font-style: normal;
+font-weight: 700;
+font-size: 2rem;
+line-height: 3.2rem;
+}
+#footer .footer_des{
+  color: var(--button-background);
+  font-family: 'Causten Round';
+font-style: normal;
+font-weight: 400;
+font-size: 1.8rem;
+line-height: 2.5rem;
+}
+.footerside1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.footerside2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 /* ------------------------------------------------Responsive style start------------------------------------------ */
 
 /* --------------------------------------Large screens and Desktops – 1025px — 1200px.----------------------------------------------- */
 @media only screen and (max-width: 1200px) {
-
   /* navbar  */
   .navbar-brand img {
     width: 16rem;
@@ -543,7 +582,6 @@ button {
   .hero-left-side-content h1 {
     font-size: 7rem;
     line-height: 8rem;
-
   }
 
   .hero-left-side-content p {
@@ -565,12 +603,9 @@ button {
     padding: 1rem 1.5rem;
     font-size: 2.2rem;
     line-height: 1rem;
-
-
   }
 
   /* section2 */
-
 
   .right-side h2 {
     font-size: 4.8rem;
@@ -625,12 +660,13 @@ button {
     font-size: 1.8rem;
     margin-top: 2rem;
   }
-
+  .sec9sideimg {
+    right: 0rem;
+  }
 }
 
 /*----------------------------------------------- Laptops and small screen – 769px — 1024px.-------------------------------------------- */
 @media only screen and (max-width: 1024px) {
-
   /* hero  */
   .hero-left-side-content h1 {
     font-size: 6rem;
@@ -691,7 +727,6 @@ button {
 
   .sec6-bottom .sec-third-sub img {
     width: 60px;
-
   }
 
   .sec6-bottom .sec-third-sub img:last-of-type {
@@ -705,10 +740,8 @@ button {
   }
 
   .sec9-left h6 {
-
     font-size: 1.8rem;
     line-height: 2rem;
-
   }
 
   .sec9-right {
@@ -719,10 +752,37 @@ button {
     font-size: 1.8rem;
     line-height: 2rem;
   }
+
+  .sec3sideimg img {
+    width: 200px;
+  }
+  .sec3sideimg {
+    bottom: -53px;
+  }
+  .sec4sideimg {
+    bottom: -35px;
+  }
+  .sec4sideimg img {
+    width: 140px;
+  }
+  .sec5sideimg {
+    bottom: 10rem;
+  }
+  .sec5sideimg img {
+    width: 175px;
+  }
+  .sec8sideimg img {
+    width: 180px;
+  }
+  .sec9sideimg img {
+    width: 210px;
+  }
+  .footerside1 img , .footerside2 img{
+    width: 100px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-
   /* navbar  */
   .navbar-brand img {
     width: 15rem;
@@ -755,12 +815,10 @@ button {
     padding: 20px;
     background-color: #ffdd6b;
   }
-
 }
 
 /*----------------------------------------------- iPads and Tablets – 481px — 768px.-------------------------------------------- */
 @media only screen and (max-width: 768px) {
-
   /* navbar  */
   /* hero  */
   .line {
@@ -814,7 +872,6 @@ button {
   .sec2sideimg img {
     width: 100px;
   }
-
 
   /* section3  */
   .common-h2 {
@@ -899,18 +956,47 @@ button {
     line-height: 1.8rem;
   }
   .sec9-left p {
-   margin-top: 0rem;
-   line-height: 2.5rem;
-   width: 90%;
-}
-.sec9-right {
-  margin-top: -14rem;
+    margin-top: 0rem;
+    line-height: 2.5rem;
+    width: 90%;
+  }
+  .sec9-right {
+    margin-top: -14rem;
+  }
+  .sec3sideimg img {
+    width: 160px;
+  }
+  .sec3sideimg {
+    bottom: -40px;
+  }
+  .sec4sideimg {
+    bottom: -28px;
+  }
+  .sec4sideimg img {
+    width: 120px;
+  }
+  .sec5sideimg {
+    bottom: 12rem;
+  }
+  .sec5sideimg img {
+    width: 150px;
+  }
+  .sec8sideimg img {
+    width: 135px;
+  }
+  .sec9sideimg img {
+    width: 185px;
+  }
+  .footerside1 img , .footerside2 img{
+    width: 100px;
+  }
+  .swiper-slide img {
+    width: 20px;
 }
 }
 
 /*----------------------------------------------- For Mobile Devices – 320px — 480px.-------------------------------------------- */
 @media only screen and (max-width: 575px) {
-
   /* navbar  */
   /* hero  */
   .line {
@@ -945,6 +1031,9 @@ button {
   .common-section {
     padding: 5rem 0rem;
   }
+  .common-margin {
+    margin: 5rem 0rem;
+  }
 
   .right-side {
     text-align: center;
@@ -964,7 +1053,6 @@ button {
   .sec2sideimg img {
     width: 80px;
   }
-
 
   /* section3  */
   .sec-third-sub {
@@ -1023,26 +1111,64 @@ button {
     font-size: 1.4rem;
     line-height: 1.6rem;
   }
-  .name{
+  .name {
     position: initial;
     text-align: center;
     margin-top: 1rem;
   }
-  #section9 .col-sm-4{
+  #section9 .col-sm-4 {
     order: 1;
   }
-  #section9 .col-sm-8{
+  #section9 .col-sm-8 {
     order: 2;
   }
-  .sec9-right{
+  .sec9-right {
     padding: 0rem 5rem;
     margin: 0;
   }
-  .sec9-left{
+  .sec9-left {
     margin-top: 1rem;
     text-align: center;
   }
   .sec9-left p {
     width: 100%;
+  }
+  .sec3sideimg img {
+    width: 120px;
+}
+.sec3sideimg {
+  bottom: -32px;
+}
+.sec4sideimg img {
+  width: 100px;
+}
+.sec4sideimg {
+  bottom: -23px;
+}
+.sec5sideimg {
+  bottom: 7rem;
+}
+.sec5sideimg img {
+  width: 130px;
+}
+.sec8sideimg img {
+  width: 100px;
+}
+.sec9sideimg img {
+  width: 140px;
+}
+.sec9sideimg {
+  right: 0rem;
+}
+.footerside1 img, .footerside2 img {
+  width: 80px;
+}
+#footer .footer_des {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+#footer li {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
 }
 }
