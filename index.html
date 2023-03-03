@@ -18,6 +18,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/assets/CSS/style.css" />
   </head>
   <body>
@@ -80,9 +84,9 @@
               <div class="hero-left-side-content">
                 <h1>Get Your Property and Loan Instanly</h1>
                 <p>
-                  Nullam semper urna sit amet tortor pretium congue non nec risus.
-                  Nullam venenatis ligula at magna convallis, at imperdiet lacus
-                  convallis.
+                  Nullam semper urna sit amet tortor pretium congue non nec
+                  risus. Nullam venenatis ligula at magna convallis, at
+                  imperdiet lacus convallis.
                 </p>
               </div>
               <div class="hero-button">
@@ -99,57 +103,54 @@
           </div>
         </div>
       </div>
-      
     </section>
     <!-- Hero Section end -->
 
     <!-- 2nd section start   -->
     <div id="section-two" class="position-relative">
-    <section class="container">
-      <div class="common-section" >
-      <div class="row ">
-        <!-- left side of section 2  -->
-        <div class="col-sm-6">
-          <div class="left-side">
-            <img src="/assets/img/sec2Img.png" alt="section2" />
-          </div>
-        </div>
+      <section class="container">
+        <div class="common-section">
+          <div class="row align-items-center">
+            <!-- left side of section 2  -->
+            <div class="col-sm-6">
+              <div class="left-side">
+                <img src="/assets/img/sec2Img.png" alt="section2" />
+              </div>
+            </div>
 
-        <!-- right side of section 2  -->
-        <div class="col-sm-6">
-          <div class="right-side">
-            <h2>Connect With AP Housing Community</h2>
-            <h6>Know more about how to buy home and get mortgage loan</h6>
-            <p>
-              Sed finibus porttitor nibh eget aliquet. Nullam feugiat risus non
-              lacus volutpat porta dignissim ut sem. In cursus ipsum in lacus
-              molestie, rutrum sollicitudin orci viverra. Proin pharetra in
-              dolor volutpat rhoncus. Curabitur ac mauris imperdiet, rhoncus dui
-              eu, rhoncus nunc. Duis ut molestie leo, eu eleifend dolor.
-            </p>
-            <button class="common-button">Know more about us</button>
+            <!-- right side of section 2  -->
+            <div class="col-sm-6">
+              <div class="right-side">
+                <h2>Connect With AP Housing Community</h2>
+                <h6>Know more about how to buy home and get mortgage loan</h6>
+                <p>
+                  Sed finibus porttitor nibh eget aliquet. Nullam feugiat risus
+                  non lacus volutpat porta dignissim ut sem. In cursus ipsum in
+                  lacus molestie, rutrum sollicitudin orci viverra. Proin
+                  pharetra in dolor volutpat rhoncus. Curabitur ac mauris
+                  imperdiet, rhoncus dui eu, rhoncus nunc. Duis ut molestie leo,
+                  eu eleifend dolor.
+                </p>
+                <button class="common-button">Know more about us</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
-    </section>
-    <div class="sec2sideimg">
+      </section>
+      <!-- <div class="sec2sideimg">
       <img
       src="/assets/img/sec2sideimg.png"
       alt="sideimg"
     />
+    </div> -->
     </div>
-    </div>
-      
-    </div>
-    </section>
     <!-- 2nd section end  -->
 
     <!-- 3rd section start  -->
     <section class="section-third common-section" id="sec-blue-bg">
       <div class="container">
         <h6 class="sec-three-subtitle">HOW IT WORKS</h6>
-        <h2>Simplified process you in control</h2>
+        <h2 class="common-h2">Simplified process you in control</h2>
 
         <div class="row">
           <div class="col-sm-4 sec-third-sub">
@@ -190,10 +191,9 @@
           </div>
         </div>
       </div>
-      <div class="sec3sideimg">
+      <!-- <div class="sec3sideimg">
         <img src="/assets/img/sec3sideimg.png" alt="">
-      </div>
-
+      </div> -->
     </section>
     <!-- 3rd section end -->
 
@@ -201,73 +201,441 @@
     <section class="section-third common-section">
       <div class="container">
         <h6 class="sec-three-subtitle">CALCULATE NOW</h6>
-        <h2>Calculate your mortgage loan 
-          with smart resources</h2>
+        <h2 class="common-h2">
+          Calculate your mortgage loan with smart resources
+        </h2>
 
         <div class="row">
-         <div class="col-sm-6">
-          <h6 class="sec4-h6">Home Purchase Calculators</h6>
-          <div class="row sec4-box">
-            <div class="col-2 sec4-img">
-              <img src="/assets/img/sec4img1.png" alt="sec4img1">
-            </div>
-            <div class="col-10">
-              <h6>Mortgage Calculator</h6>
-              <p>Estimate your monthly payment, including taxes and insurance</p>
-            </div>
-          </div>
-          <div>
+          <div class="col-sm-6">
+            <h6 class="sec4-h6">Home Purchase Calculators</h6>
             <div class="row sec4-box">
               <div class="col-2 sec4-img">
-                <img src="/assets/img/sec4img2.png" alt="sec4img2">
+                <img src="/assets/img/sec4img1.png" alt="sec4img1" />
               </div>
               <div class="col-10">
-                <h6>Home Affordability Tool</h6>
-                <p>See how much home you can afford</p>
-              </div>
-            </div>  
-          </div>
-         </div>
-         <div class="col-sm-6">
-          <h6 class="sec4-h6">Refinance Calculators</h6>
-          <div>
-            <div class="row sec4-box">
-              <div class="col-2 sec4-img">
-                <img src="/assets/img/sec4img3.png" alt="sec4img3">
-              </div>
-              <div class="col-10">
-                <h6>Refinance Calculator</h6>
-                <p>Estimate options like taking cash out or lowering your rate</p>
+                <h6>Mortgage Calculator</h6>
+                <p>
+                  Estimate your monthly payment, including taxes and insurance
+                </p>
               </div>
             </div>
-            
-          </div>
-          <div>
-            <div class="row sec4-box">
-              <div class="col-2 sec4-img">
-                <img src="/assets/img/sec4img4.png" alt="sec4img4">
-              </div>
-            
-              <div class="col-10">
-                <h6>Home Equity Tool</h6>
-                <p>See how much cash you could get out of your home</p>
+            <div>
+              <div class="row sec4-box">
+                <div class="col-2 sec4-img">
+                  <img src="/assets/img/sec4img2.png" alt="sec4img2" />
+                </div>
+                <div class="col-10">
+                  <h6>Home Affordability Tool</h6>
+                  <p>See how much home you can afford</p>
+                </div>
               </div>
             </div>
-            
           </div>
-         </div>
+          <div class="col-sm-6">
+            <h6 class="sec4-h6">Refinance Calculators</h6>
+            <div>
+              <div class="row sec4-box">
+                <div class="col-2 sec4-img">
+                  <img src="/assets/img/sec4img3.png" alt="sec4img3" />
+                </div>
+                <div class="col-10">
+                  <h6>Refinance Calculator</h6>
+                  <p>
+                    Estimate options like taking cash out or lowering your rate
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="row sec4-box">
+                <div class="col-2 sec4-img">
+                  <img src="/assets/img/sec4img4.png" alt="sec4img4" />
+                </div>
+
+                <div class="col-10">
+                  <h6>Home Equity Tool</h6>
+                  <p>See how much cash you could get out of your home</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="sec4sideimg">
+      <!-- <div class="sec4sideimg">
         <img src="/assets/img/sec4sideimg.png" alt="sec4">
-      </div>
-
+      </div> -->
     </section>
     <!-- 4th section end  -->
 
     <!-- 5th secttion start  -->
+    <div id="section-fifth" class="position-relative sec5-bg">
+      <section class="container">
+        <div class="common-section">
+          <div class="row align-items-center">
+            <!-- right side of section 2  -->
+            <div class="col-sm-6">
+              <div class="right-side sec5-rightside">
+                <img src="/assets/img/sec5left.png" alt="sec5left" />
+                <h2>Donec condimentum semper urna eget ullamcorper</h2>
+                <h6>
+                  Curabitur commodo vel sem a faucibus. Suspendisse metus augue,
+                  eleifend hendrerit tristique
+                </h6>
+                <div class="button-group">
+                  <a href="#"
+                    ><img
+                      src="/assets/img/sec5appstore.png"
+                      class="appstore"
+                      alt="appstore"
+                  /></a>
+                  <a href="#"
+                    ><img src="/assets/img/sec5googleplay.png" alt="googleplay"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <!-- left side of section 2  -->
+            <div class="col-sm-6">
+              <div class="left-side">
+                <img src="/assets/img/sec5right.png" alt="section5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <div class="sec5sideimg">
+        <img
+        src="/assets/img/sec5sideimg.png"
+        alt="sideimg"
+      />
+      </div> -->
+    </div>
     <!-- 5th secttion end  -->
 
+    <!-- 6th section start  -->
+    <section class="common-section">
+      <div class="container">
+        <div class="row align-items-center brand-group">
+          <div class="col-3 text-center">
+            <img src="/assets/img/sec6brand1.png" alt="brand1" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/assets/img/sec6brand2.png" alt="brand2" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/assets/img/sec6brand3.png" alt="brand3" />
+          </div>
+          <div class="col-3 text-center">
+            <img src="/assets/img/sec6brand4.png" alt="brand4" />
+          </div>
+        </div>
+        <div class="row align-items-center sec6-bottom">
+          <div class="col-sm-4 text-center sec-third-sub">
+            <img src="/assets/img/sec6loan.png" alt="loan" />
+            <h6>$3.0 million</h6>
+            <p>Loans Closed</p>
+          </div>
+          <div class="col-sm-4 text-center sec-third-sub">
+            <img src="/assets/img/sec6rating.png" alt="rating" />
+            <h6>4.5/5 ratings</h6>
+            <p>Star Ratings by Our Clients</p>
+          </div>
+          <div class="col-sm-4 text-center sec-third-sub">
+            <img src="/assets/img/sec6exp.png" alt="exp" />
+            <h6>25+</h6>
+            <p>Years of Experience</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 6th section end  -->
+
+    <!-- 7th section start  -->
+    <section class="common-section section-third sec7-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 position-relative pe-5">
+            <h6 class="sec-three-subtitle mb-5">TESTIMONIALS</h6>
+            <h2 class="common-h2 mb-5">What Customer Say About Us</h2>
+            <img
+              src="/assets/img/sec5left.png"
+              class="position-absolute end-0"
+              alt="sec5left"
+            />
+          </div>
+          <div class="col-sm-6">
+            <div class="swiper" id="TopCategoriesSwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="/assets/img/sec7img.png" alt="..." />
+                      <p>
+                        I really like the app and how easy it was to get the
+                        documents you needed to you so quickly.
+                      </p>
+                      <div class="line"></div>
+                      <p>Rebecca C.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="/assets/img/sec7img.png" alt="..." />
+
+                      <p>
+                        I really like the app and how easy it was to get the
+                        documents you needed to you so quickly.
+                      </p>
+                      <div class="line"></div>
+                      <p>Rebecca C.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="/assets/img/sec7img.png" alt="..." />
+
+                      <p>
+                        I really like the app and how easy it was to get the
+                        documents you needed to you so quickly.
+                      </p>
+                      <div class="line"></div>
+                      <p>Rebecca C.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="/assets/img/sec7img.png" alt="..." />
+
+                      <p>
+                        I really like the app and how easy it was to get the
+                        documents you needed to you so quickly.
+                      </p>
+                      <div class="line"></div>
+                      <p>Rebecca C.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="/assets/img/sec7img.png" alt="..." />
+
+                      <p>
+                        I really like the app and how easy it was to get the
+                        documents you needed to you so quickly.
+                      </p>
+                      <div class="line"></div>
+                      <p>Rebecca C.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="card-body">
+                      <img src="/assets/img/sec7img.png" alt="..." />
+                      <p>
+                        I really like the app and how easy it was to get the
+                        documents you needed to you so quickly.
+                      </p>
+                      <div class="line"></div>
+                      <p>Rebecca C.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 7th section end  -->
+
+    <!-- 8th section start  -->
+    <section class="section-third common-section">
+      <div class="container">
+        <h6 class="sec-three-subtitle">BLOGS</h6>
+        <h2 class="common-h2">Learn From Our Experience</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card sec8card">
+              <img src="/assets/img/sec8img1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p>Nov 11,2021</p>
+                <h6 class="card-title">Duis convallis purus sit amet sodales semper</h6>
+                <p class="card-text">Sed vulputate orci eu nisi congue, sed facilisis orci placerat. Curabitur volutpat mollis est, in sodales magna tempor et.</p>
+                <button class="common-button">
+                  Learn More <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card sec8card">
+              <img src="/assets/img/sec8img2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p>Nov 11,2021</p>
+                <h6 class="card-title">Duis convallis purus sit amet sodales semper</h6>
+                <p class="card-text">Sed vulputate orci eu nisi congue, sed facilisis orci placerat. Curabitur volutpat mollis est, in sodales magna tempor et.</p>
+                <button class="common-button">
+                  Learn More <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card sec8card">
+              <img src="/assets/img/sec8img3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p>Nov 11,2021</p>
+                <h6 class="card-title">Duis convallis purus sit amet sodales semper</h6>
+                <p class="card-text">Sed vulputate orci eu nisi congue, sed facilisis orci placerat. Curabitur volutpat mollis est, in sodales magna tempor et.</p>
+                <button class="common-button">
+                  Learn More <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- 8th section end -->
+
+
+    <!-- section 9 start  -->
+      <div class="container">
+        <h6 class="sec-three-subtitle text-start mb-1">TALK WITH EXPERTS</h6>
+      </div>
+    <div class="common-section sec7-bg" id="section9">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="sec9-left">
+              <p>Sed vulputate orci eu nisi congue, sed facilisis orci placerat. Curabitur volutpat mollis est, in sodales magna tempor et.</p>
+              <div class="row text-start">
+                <div class="col-6">
+                  <h3>Call Us</h3>
+                  <h6>1800 450 8000</h6>
+                </div>
+                <div class="col-6">
+                  <h3>Email</h3>
+                  <h6>supports@aphousing.com</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="sec9-right">
+              <img src="/assets/img/sec9img.png" alt="person">
+              <div class="name">Hannah Gomez</div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- section 9 end  -->
+
+    <!-- footer start  -->
+    <div class="footer-border"></div>
+    <section class="sec5-bg common-section">
+      <div class="container"> 
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-12 col-12 mb-lg-0 mb-2 pb-lg-0 pb-4 border_add_bottom me-auto"
+          >
+            <div class="row flex-column">
+              <div class="col-md-12 col-6 text-start">
+                <img src="/assets/img/footerlogo.png" alt="logo" />
+              </div>
+              <div class="col-lg-12 col-6 col-md-6 mt-md-3 mt-0 p-2 footer_des">
+                Sed vulputate orci eu nisi congue, sed facilisis orci placerat. Curabitur volutpat mollis est,
+              </div>
+
+              <div class="col-lg-12 col-md-6 mt-auto p-2">
+                <p class="mb-2 text-start fw-bold">Accepted Payments</p>
+                <div class="row gy-2">
+                  <div class="col-4">
+                    <img src="/assets/img/fb.png" alt="fb">
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/img/linkedin.png" alt="linkedin">
+                  </div>
+                  <div class="col-4">
+                    <img src="/assets/img/twitter.png" alt="twitter">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0 offset-lg-1">
+            <p class="fw-bold mb-2">About Company</p>
+            <ul class="ps-0">
+              <li class="pb-2">Fashion</li>
+              <li class="pb-2">Education Product</li>
+              <li class="pb-2">Frozen Food</li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0 d-flex justify-content-between flex-column"
+          >
+            <div class="mb-3">
+              <ul class="ps-0">
+                <li class="pb-2">About Shopcart</li>
+                <li class="pb-2">Careers</li>
+                <li class="pb-2">News & Blog</li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0">
+            <p class="fw-bold mb-2">About us</p>
+            <ul class="ps-0">
+              <li class="pb-2">Gift Card</li>
+              <li class="pb-2">Mobile App</li>
+              <li class="pb-2">Shipping & Delivery</li>     
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0">
+           
+            <ul class="ps-0">
+              <li class="pb-2">Shopcart Help</li>
+              <li class="pb-2">Returns</li>
+              <li class="pb-2">Track Orders</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer end  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      var swiper1 = new Swiper("#TopCategoriesSwiper", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        freeMode: true,
+        // pagination:{ clickable: true },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        breakpoints: {
+          0: { slidesPerView: 1 },
+          576: { slidesPerView: 1 },
+          768: { slidesPerView: 1 },
+          1024: { slidesPerView: 2 },
+          1200: { slidesPerView: 2 },
+          1920: { slidesPerView: 3 },
+        },
+      });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

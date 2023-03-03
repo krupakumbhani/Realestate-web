@@ -86,7 +86,7 @@ button {
 }
 
 .navbar-nav .nav-item .nav-link {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 600;
   line-height: 2rem;
@@ -202,7 +202,6 @@ button {
 }
 
 .right-side {
-  margin-top: 6rem;
   padding: 0rem 2rem;
 }
 
@@ -231,15 +230,15 @@ button {
 
 .common-button {
   font-weight: 600;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 1.8rem;
   border: 3px solid #367b74;
   border-radius: 1rem;
   color: var(--common-btn-border);
   background-color: transparent;
-  padding: 1rem 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  padding: 0.8rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .common-button:hover {
@@ -247,7 +246,7 @@ button {
   background-color: var(--common-btn-border);
 }
 
-.sec2sideimg{
+.sec2sideimg {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -258,10 +257,11 @@ button {
 
 
 /*-------------------------- section3 styles ------------------------------ */
-#sec-blue-bg{
+#sec-blue-bg {
   background-color: #2e545014;
 
 }
+
 .section-third {
   position: relative;
 }
@@ -271,14 +271,15 @@ button {
   font-weight: 600;
   font-size: 2rem;
   line-height: 3rem;
+  margin-bottom: 2rem;
   color: var(--common-btn-border);
 }
 
-.section-third .container h2 {
+.common-h2 {
   text-align: center;
   font-weight: 700;
   font-size: 5.5rem;
-  line-height: 7rem;
+  line-height: 4.5rem;
   color: var(--primry-color);
   margin-bottom: 10rem;
 }
@@ -290,67 +291,230 @@ button {
   color: var(--primry-color);
   margin-top: 1rem;
 }
-.sec-third-sub p:first-of-type{
+
+.sec-third-sub p:first-of-type {
   font-size: 1.8rem;
   color: var(--common-btn-border);
   text-transform: capitalize;
 }
-.sec-third-sub p:last-of-type{
+
+.sec-third-sub p:last-of-type {
   color: var(--primry-color);
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 2.2rem;
 }
-.sec3sideimg{
+
+.sec3sideimg {
   position: absolute;
   bottom: -81px;
   right: 0;
 }
 
 /*-------------------------- section four style ---------------------------------- */
-.sec4-h6{
+.sec4-h6 {
   font-weight: 600;
-    font-size: 2rem;
-    line-height: 3rem;
-    color: var(--main-color);
-    margin-top: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--main-color);
+  margin-top: 1rem;
 }
 
-.sec4-box{
-background: #FFFFFF;
-border: 1px solid #CDF0D7;
-box-shadow: 0px 4px 4px rgba(234, 234, 234, 0.25);
-border-radius: 0.5rem;
-margin: 1.5rem 0rem;
-padding: 2rem;
-align-items: center;
+.sec4-box {
+  background: #FFFFFF;
+  border: 1px solid #CDF0D7;
+  box-shadow: 0px 4px 4px rgba(234, 234, 234, 0.25);
+  border-radius: 0.5rem;
+  margin: 1.5rem 0rem;
+  padding: 2rem;
+  align-items: center;
 }
-.sec4-img img{
+
+.sec4-img img {
   width: 100%;
 
 }
-.sec4-box .col-10 h6{
+
+.sec4-box .col-10 h6 {
   font-weight: 600;
   font-size: 2rem;
   line-height: 3rem;
   color: #28736a;
   margin-top: 1rem;
 }
-.sec4-box .col-10 p{
-font-style: normal;
-font-weight: 400;
-font-size: 1.6rem;
-line-height: 2rem;
-margin-block-end:0rem;
+
+.sec4-box .col-10 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  margin-block-end: 0rem;
 }
-.sec4sideimg{
+
+.sec4sideimg {
   position: absolute;
   bottom: -51px;
   left: 0;
 }
 
+/*--------------------------  section fifth style ---------------------------------- */
+.sec5-bg {
+  background-color: #1D3E69;
+}
 
+.sec5-rightside h2 {
+  color: var(--button-background);
+  font-size: 5rem;
+  line-height: 6rem;
+}
 
+.sec5-rightside .button-group a img {
+  width: 13.5rem;
+  height: 4rem;
+  margin: 2rem 0rem;
+  margin-right: 2rem;
+}
+
+.sec5-bg .left-side {
+  position: relative;
+}
+
+.sec5-bg .left-side:before {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2.3rem;
+}
+
+/* ------------------------------Sixth Section style----------------------------  */
+
+.brand-group {
+  margin-bottom: 8.8rem;
+}
+
+.brand-group img {
+  width: 60%;
+}
+
+.sec6-bottom .sec-third-sub p {
+  color: var(--main-color);
+}
+
+/* ----------------------------------------Seventh Section style -------------------------------------------- */
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: var(--swiper-pagination-color, var(--common-btn-border));
+}
+
+.sec7-bg {
+  background-color: #E8F9F4;
+}
+
+.card {
+  border: none;
+  border-radius: 1.25rem;
+}
+
+.card-body {
+  font-family: "Causten Round" !important;
+}
+
+.swiper-slide img {
+  margin: 1rem;
+}
+
+.swiper-slide .card-body .line {
+  border: 2px solid var(--primary-button-text);
+  width: 6rem;
+  margin-bottom: 1.8rem;
+}
+
+.swiper-slide .card-body p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+
+/* -----------------------------8th section style------------------- */
+.sec8card .card-body p:first-of-type {
+  font-size: 1.8rem;
+  color: var(--common-btn-border);
+  text-transform: capitalize;
+}
+
+.sec8card .card-body h6 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: var(--primry-color);
+}
+
+.sec8card .card-body p:last-of-type {
+  color: var(--primry-color);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+/* -----------------------------------section 9th styles------------------------------------- */
+.sec9-left p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+
+.sec9-left h3 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: var(--primry-color);
+  margin-top: 2rem;
+}
+
+.sec9-left h6 {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: var(--primry-color);
+}
+
+.sec9-right {
+  margin-top: -17rem;
+  position: relative;
+}
+
+.sec9-right img {
+  width: 100%;
+}
+
+.name {
+  position: absolute;
+  background-color: var(--primry-color);
+  color: var(--button-background);
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 1rem;
+  bottom: 4rem;
+  left: -4rem;
+}
+
+/* ----------------------------Footer Styles --------------------------- */
+.footer-border{
+  width: 100%;
+  border: 4px solid orange;
+}
 /* ------------------------------------------------Responsive style start------------------------------------------ */
 
 /* --------------------------------------Large screens and Desktops – 1025px — 1200px.----------------------------------------------- */
@@ -406,9 +570,7 @@ margin-block-end:0rem;
   }
 
   /* section2 */
-  .right-side {
-    margin-top: 0rem;
-  }
+
 
   .right-side h2 {
     font-size: 4.8rem;
@@ -428,18 +590,41 @@ margin-block-end:0rem;
   .common-button {
     font-size: 2rem;
     line-height: 2rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
-.sec2sideimg img{
-  width: 140px;
-}
+
+  .sec2sideimg img {
+    width: 140px;
+  }
 
   /* section3  */
   /* section4  */
   .sec4-img img {
-    width: 90%;
-}
+    width: 100%;
+  }
+
+  .sec5-rightside h2 {
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+
+  .sec5-bg .left-side:before {
+    border-radius: 2.1rem;
+  }
+
+  .brand-group {
+    margin-bottom: 6.8rem;
+  }
+
+  .brand-group img {
+    width: 60%;
+  }
+
+  .swiper-slide .card-body p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
 
 }
 
@@ -457,29 +642,83 @@ margin-block-end:0rem;
   }
 
   /* section2 */
-  .sec2sideimg img{
+  .sec2sideimg img {
     width: 120px;
   }
+
   /* section3  */
-  .section-third .container h2 {
+  .common-h2 {
     font-size: 4.8rem;
     line-height: 5rem;
     margin-bottom: 6rem;
-}
-.sec-three-subtitle {
-  font-size: 1.8rem;
-  line-height: 2rem;
-}
-.sec4-box .col-10 h6 {
-  font-weight: 600;
-  font-size: 1.8rem;
-  line-height: 2rem;
-  color: #28736a;
-  margin-top: 0rem;
-}
-.sec4-box .col-10 p {
-  font-size: 1.4rem;
-}
+  }
+
+  .sec-three-subtitle {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .sec4-box {
+    padding: 1rem;
+  }
+
+  .sec4-box .col-10 h6 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: #28736a;
+    margin-top: 0rem;
+  }
+
+  .sec4-box .col-10 p {
+    font-size: 1.2rem;
+  }
+
+  .sec5-rightside h2 {
+    font-size: 3.8rem;
+    line-height: 4.2rem;
+  }
+
+  .sec5-bg .left-side:before {
+    border-radius: 1.7rem;
+  }
+
+  .sec5-rightside img:first-of-type {
+    width: 75px;
+    margin-bottom: 1rem;
+  }
+
+  .sec6-bottom .sec-third-sub img {
+    width: 60px;
+
+  }
+
+  .sec6-bottom .sec-third-sub img:last-of-type {
+    width: 50px;
+    height: 50px;
+  }
+
+  .sec9-left h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .sec9-left h6 {
+
+    font-size: 1.8rem;
+    line-height: 2rem;
+
+  }
+
+  .sec9-right {
+    margin-top: -16rem;
+  }
+
+  .name {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -550,7 +789,7 @@ margin-block-end:0rem;
   }
 
   /* section2 */
- 
+
   .right-side h2 {
     font-size: 3.6rem;
     line-height: 4rem;
@@ -571,37 +810,101 @@ margin-block-end:0rem;
     line-height: 1.4rem;
     padding: 0.8rem 1.4rem;
   }
-  .sec2sideimg img{
+
+  .sec2sideimg img {
     width: 100px;
   }
- 
+
 
   /* section3  */
-  .section-third .container h2 {
+  .common-h2 {
     font-size: 3.6rem;
     line-height: 4rem;
     margin-bottom: 4rem;
-}
-.sec-third-sub img{
-  width: 60px;
-}
-.sec-third-sub h6 {
-  font-size: 1.8rem;
-  line-height: 2rem;
-}
-.sec-third-sub p:first-of-type {
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-}
-.sec-third-sub p:last-of-type {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
+  }
 
-/* section 4 */
-.sec4-h6{
-  font-size: 1.8rem;
-  line-height: 2rem;
+  .sec-third-sub img {
+    width: 60px;
+  }
+
+  .sec-third-sub h6 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .sec-third-sub p:first-of-type {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .sec-third-sub p:last-of-type {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  /* section 4 */
+  .sec4-h6 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .right-side h2 {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+  }
+
+  .sec5-rightside .button-group a img {
+    width: 12.5rem;
+    height: 4rem;
+    margin: 1rem 0rem;
+    margin-right: 1rem;
+  }
+
+  .brand-group {
+    margin-bottom: 5.8rem;
+  }
+
+  .brand-group img {
+    width: 70%;
+  }
+
+  .swiper-slide .card-body p {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    line-height: 2.4rem;
+  }
+
+  .sec8card .card-body p:first-of-type {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .sec8card .card-body h6 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .sec8card .card-body p:last-of-type {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sec9-left h3 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .sec9-left h6 {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  .sec9-left p {
+   margin-top: 0rem;
+   line-height: 2.5rem;
+   width: 90%;
+}
+.sec9-right {
+  margin-top: -14rem;
 }
 }
 
@@ -610,6 +913,10 @@ margin-block-end:0rem;
 
   /* navbar  */
   /* hero  */
+  .line {
+    margin: 1rem 0rem;
+  }
+
   .hero-section {
     padding: 1rem 0rem;
   }
@@ -637,13 +944,14 @@ margin-block-end:0rem;
   /* section2 */
   .common-section {
     padding: 5rem 0rem;
-}
+  }
+
   .right-side {
-    margin-top: 3rem;
     text-align: center;
   }
 
   .right-side h2 {
+    margin-top: 2rem;
     font-size: 2.8rem;
     line-height: 3.5rem;
   }
@@ -652,22 +960,89 @@ margin-block-end:0rem;
     font-size: 1.4rem;
     line-height: 2rem;
   }
-  .sec2sideimg img{
+
+  .sec2sideimg img {
     width: 80px;
   }
-      
+
 
   /* section3  */
-  .sec-third-sub{
+  .sec-third-sub {
     text-align: center;
   }
-  .section-third .container h2 {
+
+  .common-h2 {
     font-size: 2.8rem;
     line-height: 3.5rem;
     margin-bottom: 3rem;
-}
+  }
 
-.sec4-box .col-10 h6 {
-  font-size: 1.6rem;
+  .sec4-box .col-10 h6 {
+    font-size: 1.6rem;
+  }
+
+  .sec4-h6 {
+    text-align: center;
+    margin-top: 0rem;
+  }
+
+  .sec5-rightside .button-group a img {
+    width: 12rem;
+    margin: 1.5rem 0rem;
+    margin-right: 1rem;
+  }
+
+  .sec5-bg .left-side:before {
+    border-radius: 1.3rem;
+  }
+
+  .sec5-rightside img:first-of-type {
+    width: 65px;
+    margin-bottom: 0rem;
+  }
+
+  .brand-group img {
+    width: 85%;
+  }
+
+  .sec6-bottom .sec-third-sub {
+    margin-bottom: 3rem;
+  }
+
+  .swiper-slide .card-body p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+
+  .sec9-left h3 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+  .sec9-left h6 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  .name{
+    position: initial;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  #section9 .col-sm-4{
+    order: 1;
+  }
+  #section9 .col-sm-8{
+    order: 2;
+  }
+  .sec9-right{
+    padding: 0rem 5rem;
+    margin: 0;
+  }
+  .sec9-left{
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .sec9-left p {
+    width: 100%;
 }
 }
